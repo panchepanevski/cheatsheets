@@ -1,9 +1,9 @@
-Master - Local - Remote
+# GIT
 
-COMANDS
+## COMANDS
 
-init
-add
-commit
-push
-pull
+1. init
+2. add
+3. commit
+4. push
+5. pull
