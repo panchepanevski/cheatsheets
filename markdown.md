@@ -52,7 +52,7 @@ To create an inline link, you wrap the link text in brackets [ ] , and then you 
 
 Example: [Visit GitHub!](www.github.com)
 
-                  [Visit GitHub!](www.github.com)
+    [Visit GitHub!](www.github.com)
 
 The other link type is called a reference link. As the name implies, the link is actually a reference to another place in the document. Here's an example of what we mean:
 
@@ -68,3 +68,103 @@ The other link type is called a reference link. As the name implies, the link is
 Images also have two styles, just like links, and both of them render the exact same way. The difference between links and images is that images are prefaced with an exclamation point ! .
 
 The first image style is called an inline image link. To create an inline image link, enter an exclamation point ( ! ), wrap the alt text in brackets [ ] , and then wrap the link in parenthesis ( ) .
+
+Example:
+
+![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
+
+For a reference image, you'll follow the same pattern as a reference link. You'll precede the Markdown with an exclamation point, then provide two brackets for the alt text, and then two more for the image tag, like this: ![The founding father][father] At the bottom of your Markdown page, you'll define an image for the tag, like this: [Father]: http://octodex.github.com/images/founding-father.jpg.
+
+    ![Black cat][Black]
+
+    ![Orange cat][Orange]
+
+    [Black]: https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg
+    [Orange]: http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png
+
+# Blockquotes
+
+To create a block quote, all you have to do is preface a line with the "greater than" caret >.
+
+Example:
+
+    > "In a few moments he was barefoot, his stockings folded in his pockets and his
+      canvas shoes dangling by their knotted laces over his shoulders and, picking a
+      pointed salt-eaten stick out of the jetsam among the rocks, he clambered down
+      the slope of the breakwater."
+
+# Lists
+
+There are two types of lists in the known universe: unordered and ordered. That's a fancy way of saying that there are lists with bullet points, and lists with numbers.
+
+To create an unordered list, you'll want to preface each item in the list with an asterisk \* . Each list item also gets its own line. For example, a grocery list in Markdown might look like this:
+
+    * Milk
+    * Eggs
+    * Salmon
+    * Butter
+
+This Markdown list would render into the following bullet points:
+
+- Milk
+- Eggs
+- Salmon
+- Butter
+
+An ordered list is prefaced with numbers, instead of asterisks.
+
+    1. Crack three eggs over a bowl
+    2. Pour a gallon of milk into the bowl
+    3. Rub the salmon vigorously with butter
+    4. Drop the salmon into the egg-milk bowl
+
+1. Crack three eggs over a bowl
+2. Pour a gallon of milk into the bowl
+3. Rub the salmon vigorously with butter
+4. Drop the salmon into the egg-milk bowl
+
+Occasionally, you might find the need to make a list with more depth, or, to nest one list within another. Have no fear, because the Markdown syntax is exactly the same. All you have to do is to remember to indent each asterisk one space more than the preceding item.
+
+For example, in the following list, we're going to add some sub-lists to each "main" list item, describing the people in detail:
+
+    * Tintin
+      * A reporter
+      * Has poofy orange hair
+      * Friends with the world's most awesome dog
+    * Haddock
+      * A sea captain
+      * Has a fantastic beard
+      * Loves whiskey
+      * Possibly also scotch?
+
+- Tintin
+  - A reporter
+  - Has poofy orange hair
+  - Friends with the world's most awesome dog
+- Haddock
+  - A sea captain
+  - Has a fantastic beard
+  - Loves whiskey
+  - Possibly also scotch?
+
+# Paragraphs
+
+If you forcefully insert a new line, you end up breaking the togetherness:
+
+---
+
+f you’d like to know more about these Markdown implementations, you’re welcome to explore any number of other Markdown apps and tutorials. Here are just a few:
+
+- https://daringfireball.net/projects/markdown/
+
+- https://spec.commonmark.org/dingus/
+
+- https://johnmacfarlane.net/babelmark2/faq.html
+
+- https://www.markdownguide.org
+
+- https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1/
+
+- http://idratherbewriting.com/2013/06/04/exploring-markdown-in-collaborative-authoring-to-publishing-workflows/
+
+- https://en.wikipedia.org/wiki/Markdown#Example
