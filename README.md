@@ -1,5 +1,3 @@
 # cheatsheets
 
-My personal cheat sheets
-
-another update.
+My personal cheatsheets
