@@ -20,7 +20,7 @@ Want to see all the flags? Use the man command for the ls command by running **m
 
 - **pwd** - see your current directory
 - **cd** - navigate to different directories
-- **cd ~** - go to your root directory
+- **cd** **~** - go to your root directory
 - **mkdir** - make a new directory
 - **touch** - make a new file
 - **cat** - show a file's contents
