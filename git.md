@@ -15,3 +15,4 @@
 3. git commit -m "add description"
 4. git push
 5. git status
+6. .gitignore / iis a file in which
