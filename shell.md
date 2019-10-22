@@ -38,3 +38,5 @@ There's also some slightly more advanced ones you should take the time to learn.
 - **Sed** - manipulates texts in files using a regex
 
 [Link](https://dev.to/maxwell_dev/the-shell-introduction-i-wish-i-had-551k) to article to read more about Schell.
+
+[Another Useful Link](https://dev.to/milkstarz/helpful-terminal-commands-for-beginners-5cjh) to article to read more about Schell.
